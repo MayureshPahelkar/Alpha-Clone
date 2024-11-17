@@ -1,0 +1,452 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url(./image/alpha.img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #f5f5f5;
+}
+
+#bar{
+    display: none;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 2%;
+}
+#left h1{
+    font-size: 1rem;
+    color: white;
+}
+#left h1 span{
+    
+    font-weight: 100;
+}
+#right #cont{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+#right a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+#right button{
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 1rem;
+    color: white;
+    border: 2px solid rgb(211, 207,207);
+    padding: 5px 10px;
+    
+}
+
+#drop{
+    position: relative;
+}
+
+
+
+#menu{
+    list-style-type: none;
+    padding: 0;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 250%;
+    display: none;
+}
+
+#drop:hover #menu{
+    display: block;
+}
+
+#menu a{
+    color: black;
+    border-bottom: 2px solid black;
+    display: block;
+    padding-left: 10px;
+    
+}
+
+#menu a:hover{
+    background-color: orange;
+    
+}
+#drop2{
+    position: relative;
+}
+
+#menu2{
+    list-style-type: none;
+    padding: 0;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 0%;
+    left: -150%;
+    width: 150%;
+    display: none;
+}
+#menu2 a{
+    color: black;
+    border-bottom: 2px solid black;
+    display: block;
+    padding-left: 10px;
+    
+}
+
+#drop2:hover #menu2{
+    display: block;
+}
+
+
+
+#menu2 a:hover{
+    background-color: orange;
+  
+}
+
+#Alpha{
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    color: #fff;
+    margin-top: 7rem;
+
+}
+
+#Alpha h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+
+}
+
+#Alpha p{
+    font-size: 1.3rem;
+    margin-bottom:2.5rem;
+}
+
+#Alpha button{
+    width: 13%;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    margin-right: 1rem;
+    background-color: #fff;
+    color: grey;
+    font-size: 0.8rem;
+
+}
+
+#Alpha #learn{
+    background-color: transparent;
+    border-color: rgba(62, 58, 58, 0);
+    color: #fff;
+    border: 2px solid rgb(214, 214, 214);
+
+}
+
+#intro{
+    background-color: #fff;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    color: gray;
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 13rem;
+
+}
+
+#intro h1{
+    font-size: 2rem;
+}
+
+#intro p{
+    font-size: 1.2rem;
+    border-top: 1px solid rgb(193, 191, 191);
+    width: 60%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#intro img{
+    width: 100%;
+}
+
+#signup{
+    background-color: rgb(232,153,128);
+    border-radius: 4px;
+    align-items: center;
+    margin-top: 80px;
+    text-align: center;
+    padding: 23px;
+    
+}
+
+#signup h1{
+      color: #fff;
+      /* margin-top: 20px;
+      padding: 10px; */
+      font-size: 33px;
+      
+}
+
+#signup p{
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+#signup input{
+    width: 18%;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    /* background-color: rgba(73, 71, 69, 0.345); */
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+    border: none;
+}
+#signup button{
+    width: 9%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: white;
+    color: rgb(215, 138, 115);
+    border-radius: 5px;
+    border: none;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+
+}
+#signup input::placeholder{
+    color: white;
+    padding-left: 2rem;
+    
+    
+}
+
+#icon{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    gap: 2rem;
+    padding-top: 4rem;
+    color: rgba(173, 169, 169, 0.631);
+    padding-bottom: 1rem;
+    text-align: center;
+    
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+
+}
+#footer #p1{
+    
+    font-size: 1.2rem;
+    padding-right: 1.5rem;
+
+
+}
+#footer #p2{
+    
+    font-size: 1.2rem;
+    padding-right: 1.5rem;
+    border-left: 1px solid gray;
+    padding-left: 1rem;
+
+}
+
+#footer #p3{
+    
+    font-size: 1.2rem;
+    border-left: 1px solid gray;
+    padding-left: 1rem;
+  
+
+}
+#footer span{
+    border-bottom: 1px solid gray;
+}
+
+#icons{
+    background-color: #fff;
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+#icons div{
+    width: 47%;
+    /* background-color: aqua; */
+    display: inline-block;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+
+.fa-bolt-lightning
+{
+  background-color: #e89980;
+}
+.fa-chart-area{
+    background-color: #7fcdb8;
+    padding: 1rem 1.1rem;
+}
+.fa-cloud{
+    background-color: #90b0ba;
+    padding: 1rem 1.1rem;
+}
+.fa-lock{
+    background-color:#e5cb95;
+    padding: 1rem  1.2rem;
+}
+.fa-solid{
+
+    color: white;
+    border-radius: 100%;
+    font-size: 2rem;
+}
+#div1{
+    border-right: 2px solid #efefef;
+    border-bottom: 2px solid #efefef;
+    position: relative;
+    top: 1.5px;
+    left: 3.5px;
+}
+#div4
+{
+    border-top: 2px solid #efefef;
+    border-left: 2px solid #efefef;
+}
+#cards
+{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+   
+}
+#cards div{
+
+    width: 45%;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+#cards div img{
+   width: 100%;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+#cards div h1
+{
+    font-size: 1.8rem;
+    color: #979a9a;
+
+}
+#cards div p{
+    font-size: 1.1rem;
+    color: #b3b3b6;
+}
+#cards div button{
+    width: 150px;
+    font-size: 1rem;
+    color: #7c8388;
+    background-color: transparent;
+    border: 2px solid #e8e8e8;
+    border-radius: 5px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* -----------Mobile version------- */
+
+@media(max-width:500px){
+    body{
+       
+        background-size:190%;
+        background-position-x: center;
+    }
+    #bar{
+        display: inline-block;
+        background: rgba(192, 192, 192, 0.75);
+        padding: 5px 10px;
+        color: #fff;
+        border-radius: 5px;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+    header{
+        display: none;
+    }
+    #Alpha{
+      
+        width: 80%;
+        margin: auto;
+        margin-top:0;
+    }
+    #Alpha h1{ 
+        font-size: 2rem;
+        /* margin-bottom: 0; */
+    
+    }
+    
+    #Alpha p{
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    #Alpha button{
+        width: 100%;
+        margin-bottom: 1rem;
+    
+    }
+    #intro{
+        width: 100%;
+        margin-top: 2.2rem;
+    
+    }
+    
+#intro h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#intro p{
+    font-size: 1.1rem;
+    width: 90%;
+}
+br{
+    display: none;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
